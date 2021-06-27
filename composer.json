@@ -1,16 +1,13 @@
 {
-    "name": "laravel/helpers",
-    "description": "Provides backwards compatibility for helpers in the latest Laravel release.",
+    "name": "headerx/laravel-helpers",
+    "description": "A Modest Collection of Laravel Helpers",
     "keywords": ["laravel", "helpers"],
     "license": "MIT",
     "authors": [
         {
-            "name": "Taylor Otwell",
-            "email": "taylor@laravel.com"
-        },
-        {
-            "name": "Dries Vints",
-            "email": "dries@laravel.com"
+            "name": "inmanturbo",
+            "email": "inman.turbo@gmail.com",
+            "role": "Developer"
         }
     ],
     "require": {
