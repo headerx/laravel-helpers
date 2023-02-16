@@ -38,7 +38,7 @@ if (! function_exists('homeRoute')) {
     function homeRoute()
     {
         if (auth()->check()) {
-            return \App\Providers\RouteServiceProvider::HOME;
+            return \App\Providers\RouteServiceProvider::HOME ?? '/';
         }
 
         return 'index';
